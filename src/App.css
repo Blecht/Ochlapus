@@ -1,9 +1,34 @@
-.App {
+.card--filter-input {
+  width: 100%;
+  height: 23px;
+}
+
+.cardList--item--name {
   text-align: center;
 }
 
-.card-list--item--picture {
+.cardList--item {
+  width: 33%;
+  text-align: center;
+  list-style: none;
+  float: left;
+}
+
+.cardList--item--picture {
   height: 80px;
+  display: block;
+}
+
+.cardList--item--effect {
+  display: block;
+}
+
+.cardList--item--description {
+  display: block;
+}
+
+.cardList--item--filter {
+  display: block;
 }
 
 .App-header {

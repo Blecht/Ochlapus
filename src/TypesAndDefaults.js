@@ -3,7 +3,7 @@ export const cardList = [
         name: 'Card 1',
         picture: '',
         effect: '+10 to STR',
-        description: 'Such a power!',
+        description: 'Such power!',
         filter: 'Dwarf',
     },
     {
