@@ -11,17 +11,7 @@ class App extends Component {
       characterName: '',
     };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-    handleChange(event) {
-      this.setState({value: event.target.value});
-  }
-
-    handleSubmit(event) {
-      this.setState(this.state.value);
+    this.handleInputChange = this.handleInputChange.bind(this);  
   }
 
   handleInputChange(event) {
@@ -33,7 +23,6 @@ class App extends Component {
       [name]: value
     });
   }
-
 
   render() {
     return (
