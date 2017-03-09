@@ -1,6 +1,6 @@
 import React from 'react'
 import PickerComponent from '../components/PickerComponent'
-
+// import actions from '../stores/actions'
 
 export class PickerCollectionContainer extends React.Component {
     constructor(props) {
@@ -19,7 +19,7 @@ export class PickerCollectionContainer extends React.Component {
     }
     
     handleRaceChange(race) {
-
+      
         console.log(race)
         // this.setState({
         // chosenRace: race
